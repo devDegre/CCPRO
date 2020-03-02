@@ -1,0 +1,35 @@
+#tab-nav {
+    margin: 0px ;
+    padding: 0px ;
+    position: relative ;
+    bottom: -1px ;
+}
+#tab-nav li {
+    display: inline-block ;
+}
+#tab-nav a {
+    display: block ;
+    border: 1px solid #cccccc ;
+    border-width: 1px 1px 0 1px ;
+    padding: 10px 5px ;
+    border-radius: 5px 5px 0 0 ;
+    background-color: #cccccc ;
+}
+#tab-nav a:hover {
+    background-color: #ffffff ;
+}
+#tab-nav .tab-nav-active {
+    background-color: #ffffff ;
+}
+/* Contenu des onglets */
+.tab {
+    display: none ;
+    border: 1px solid #cccccc ;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tab-active {
+    display: block ;
+}
+
